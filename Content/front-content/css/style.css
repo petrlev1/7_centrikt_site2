@@ -70,7 +70,7 @@ nav {
   right: 0;
   margin: auto;
   text-align: right;
-  z-index: 2;
+  z-index: 99;
   padding: 5px 0; }
   nav:hover .submenu {
     display: block; }
@@ -78,7 +78,7 @@ nav {
     display: inline-block;
     font-size: 16px;
     white-space: nowrap;
-    color: #0366A6;
+    color: #2185C5;
     padding: 20px 26px 25px 26px;
     transition: color 0.3s ease 0s; }
     nav a:hover {
@@ -113,7 +113,7 @@ nav {
     padding: 5px 0;
     margin: 5px 0; }
     .submenu a:hover {
-      color: #2c9bc9; }
+      color: #5cbde5; }
   .submenu .container {
     padding: 20px 50px; }
   .submenu h3 {
@@ -133,7 +133,7 @@ nav {
     display: inline-block;
     padding: 10px 15px;
     transition: all 0.3s ease 0s;
-    color: #0366A6; }
+    color: #2185C5; }
     .navtree a:hover {
       color: #fff;
       background-color: #0078C3; }
@@ -179,7 +179,7 @@ nav {
   height: 14px;
   background: url(img/navtree_arrow.png) no-repeat;
   background-position: top 1px right -3px;
-  margin: 0; }
+  margin: 0 5px; }
 
 .footer {
   background-color: #004B78;
@@ -443,19 +443,9 @@ p {
     background-color: #0366A6; }
 
 .prod_catalog_padding {
-  padding: 10px 30px 55px 30px; }
+  padding: 10px 30px; }
 
 /* /in_page */
-/* elements */
-.btn {
-  font-size: 20px;
-  padding: 10px 20px;
-  transition: all 0.3s ease 0s; }
-
-.pagination a {
-  transition: all 0.3s ease 0s; }
-
-/* /elements */
 /* page index */
 .ind_block_section, .ind_block_uslugi {
   text-align: center;
@@ -487,16 +477,50 @@ p {
 .ind_pic {
   width: 100%;
   height: 426px;
-  background-color: #F5F6F7;
-  background-image: url(img/ind_pic.png);
+  background: #F5FCFF;
+  background-image: url(img/ind_pic.png), linear-gradient(to top, #ffffff, #EBF8FF);
   background-repeat: no-repeat;
-  background-position: center bottom; }
+  background-position: center bottom;
+  border-bottom: 1px #b9d6ea solid; }
   .ind_pic .container {
     position: relative; }
 
 .ind_pic_text {
+  position: absolute;
+  right: 9%;
+  top: 60px;
   color: #0478C3;
-  font-size: 33px; }
+  font-size: 36px; }
+
+.index_new {
+  position: absolute;
+  top: 230px;
+  right: 45px;
+  text-align: right;
+  width: 49%; }
+
+.index_news_text {
+  position: relative;
+  width: 50%;
+  display: inline-block;
+  text-align: center; }
+  .index_news_text:before {
+    content: "";
+    left: -42px;
+    bottom: -10px;
+    background: url(img/index/que1.png) center no-repeat; }
+  .index_news_text:after {
+    content: "";
+    right: -35px;
+    top: -10px;
+    background: url(img/index/que2.png) center no-repeat; }
+
+.index_news_quotes, .index_news_text:before, .index_news_text:after {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  font-size: 50px;
+  color: #3B8EC3; }
 
 .ind_block {
   position: relative;
@@ -505,27 +529,23 @@ p {
   .ind_block img {
     width: 150px;
     position: relative;
-    z-index: 1; }
-  .ind_block:hover .ind_icon_shadow {
-    opacity: 0.6;
+    z-index: 1;
+    transition: all 0.3s ease 0s; }
+  .ind_block .ind_block_act {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 0;
+    opacity: 0; }
+  .ind_block:hover .ind_block_act {
+    opacity: 1;
     transition: all 0.3s ease 0s; }
   .ind_block a {
     color: #4D4D4D; }
     .ind_block a:hover {
       color: #2185C5; }
-
-.ind_icon_shadow {
-  position: absolute;
-  opacity: 0;
-  top: 98px;
-  left: 0;
-  right: 0;
-  margin: auto;
-  width: 131px;
-  height: 49px;
-  background: url(img/index/ind_icon_shadow.png) center no-repeat;
-  transition: all 0.3s ease 0s;
-  z-index: 0; }
 
 .block_news {
   font-size: 14px;
@@ -534,7 +554,8 @@ p {
     display: block; }
 
 .block_news1 {
-  margin: 0 10px 20px 0; }
+  margin: 0 5px;
+  font-size: 14px; }
 
 .news_pic {
   width: 100%;
@@ -545,27 +566,12 @@ p {
   border: 1px #0A79BA solid;
   margin-bottom: 4px; }
 
-.btn_roznica {
-  position: absolute;
-  right: 10px;
-  bottom: -50px;
-  font-size: 19px; }
-  .btn_roznica a {
-    padding: 10px 10px;
-    border-bottom: 1px #6EC9EF solid;
-    border-radius: 10px;
-    background-color: #fff; }
-    .btn_roznica a:hover {
-      color: #fff;
-      background-color: #0478C3; }
-
 .ind_block_oborud {
   position: relative;
-  color: #4D4D4D;
+  color: #2188C8;
   display: block;
   width: 390px;
-  min-height: 220px;
-  padding: 173px 5px 5px 5px;
+  min-height: 250px;
   background: top center no-repeat;
   background-size: 390px;
   border: 1px #F0F1F2 solid;
@@ -582,8 +588,7 @@ p {
     padding: 37px 0 0 0;
     font-size: 18px; }
   .ind_block_oborud:hover {
-    color: #2185C5;
-    border-color: #2185C5; }
+    color: #4db8e5; }
   .ind_block_oborud:hover .ind_block_oborud_a {
     opacity: 1;
     transition: all 0.3s ease 0s; }
@@ -595,7 +600,8 @@ p {
   left: 0;
   right: 0;
   margin: auto;
-  transition: all 0.3s ease 0s; }
+  transition: all 0.3s ease 0s;
+  width: 390px; }
 
 /* /page index */
 /* page blank order */
@@ -652,9 +658,10 @@ p {
     background: linear-gradient(to top, #F5F6F7, #FAFBFC);
     border-top: 1px #dce9f2 solid;
     text-align: left;
-    vertical-align: top; }
+    vertical-align: middle; }
   .blank_table input, .table_files input {
-    width: 100%; }
+    width: 100%;
+    font-size: 17px; }
 
 .blank_table_left {
   width: 25%; }
@@ -767,6 +774,15 @@ p {
     border-bottom: none; }
 
 /* /page contacts */
+/* alcospot_egais */
+.icon1 {
+  float: right;
+  margin: 0 0 5px 30px;
+  width: 201px;
+  height: 206px;
+  background-image: url(img/pages_images/icon1.png); }
+
+/* /alcospot_egais */
 @media (max-width: 1200px) {
   .logo {
     width: 325px;
@@ -782,12 +798,15 @@ p {
   .menu_item {
     background-position: right -2px top 29px; }
 
-  .btn_roznica {
-    right: 0;
-    bottom: -35px; }
-
   .about_testern1_text {
-    margin: 100px 0 100px 45%; } }
+    margin: 100px 0 100px 45%; }
+
+  .ind_pic_text {
+    position: absolute;
+    right: 4%;
+    top: 60px;
+    color: #0478C3;
+    font-size: 36px; } }
 @media (max-width: 992px) {
   .head {
     padding-bottom: 65px;
@@ -828,10 +847,6 @@ p {
   h2 {
     font-size: 30px; }
 
-  .btn_roznica {
-    right: 0;
-    bottom: -40px; }
-
   .about_testern1_text {
     margin: 0 0 0 0; }
 
@@ -843,7 +858,17 @@ p {
 
   .about_etsp_text {
     padding-bottom: 0;
-    padding-top: 0; } }
+    padding-top: 0; }
+
+  .ind_pic_text {
+    position: absolute;
+    right: 0;
+    top: 60px;
+    color: #0478C3;
+    font-size: 33px; }
+
+  .index_new {
+    display: none; } }
 @media (max-width: 768px) {
   .head_line {
     display: block;
@@ -934,10 +959,6 @@ p {
     min-width: 0; } }
 
 /*# sourceMappingURL=style.css.map */
-.note-error {
-    color: red;
-}
-
 
 .custom-btn-bootstrap {
   background-color: hsl(201, 100%, 30%) !important;
@@ -955,11 +976,3 @@ p {
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.33);
   -webkit-font-smoothing: antialiased;
 }
-
-input.input-validation-error {
-        border: 1px red solid;
-    }
-
-.field-validation-error, .validation-summary-errors {
-        color: red;
-    }
