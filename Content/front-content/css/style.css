@@ -79,10 +79,13 @@ nav {
     font-size: 16px;
     white-space: nowrap;
     color: #2185C5;
-    padding: 20px 26px 25px 26px;
+    padding: 10px 20px 10px 20px;
+    margin: 10px 6px 0 6px;
     transition: color 0.3s ease 0s; }
     nav a:hover {
       color: #6EC9EF; }
+  nav .navactive {
+    color: #6EC9EF; }
 
 .adapt_but_label {
   display: none; }
@@ -95,10 +98,13 @@ nav {
 
 .menu_item {
   background: url(img/item_arrow.png) no-repeat;
-  background-position: right 5px top 26px; }
+  background-position: right 0 top 17px; }
+  .menu_item:hover {
+    padding-bottom: 50px; }
 
 .submenu {
   display: none;
+  top: 73px;
   position: absolute;
   width: 100%;
   background-color: #DCF1FA;
@@ -864,11 +870,12 @@ p {
     width: 970px;
     top: 47px; }
     nav a {
-      padding: 23px 15px;
+      padding: 10px 15px 10px 15px;
+      margin: 10px 0 0 0;
       font-size: 15px; }
 
   .menu_item {
-    background-position: right -2px top 29px; }
+    background-position: right 0 top 16px; }
 
   .about_etsp_img {
     width: 35%;
@@ -904,12 +911,14 @@ p {
   nav {
     text-align: center;
     width: 100%;
-    top: 130px; }
+    top: 125px; }
     nav a {
-      padding: 15px 20px; }
+      padding: 10px 20px; }
 
   .menu_item {
     background: none; }
+    .menu_item:hover {
+      padding-bottom: 0; }
 
   .submenu_item:hover > .submenu {
     display: none; }
