@@ -394,7 +394,8 @@ h3 {
 .btn, .btn_files {
   font-size: 20px;
   padding: 10px 20px;
-  transition: all 0.3s ease 0s; }
+  transition: all 0.3s ease 0s;
+  width: auto !important; }
 
 .pagination a {
   transition: all 0.3s ease 0s; }
