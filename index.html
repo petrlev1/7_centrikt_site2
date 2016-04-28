@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Главная</title>
+    <title>Центр ИКТ - современные системы учета спирта и алкогольной продукции</title>
     <meta charset="utf-8">
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,8 +16,14 @@
 
     <script src="http://89.31.20.102:50000/Content/kendo/kendo.all.min.js"></script>
     
-    <link href="/Content/img/favicon.ico" rel="SHORTCUT ICON" type="img/favicon.ico" />
+    <link href="http://89.31.20.102:50000/Content/img/favicon.ico" rel="SHORTCUT ICON" type="img/favicon.ico" />
     
+    
+    <script src="http://89.31.20.102:50000/Content/front-content/js/owl.carousel.js"></script>
+    <link href="http://89.31.20.102:50000/Content/front-content/css/owl.carousel.css" rel="stylesheet" type="text/css">
+    
+    <link rel="stylesheet" href="/Content/validation.css"/>
+
     <script type="text/javascript">
         (function (d, w, c) {
             (w[c] = w[c] || []).push(function () {
@@ -50,9 +56,10 @@
 <body>
 
 
-    <nav>
-        <a href="/News">Новости</a><span class="submenu_item">
-             <a href="#" class="menu_item">Услуги и решения</a>
+    <nav class="main-menu">
+        <a href="/News">Новости</a>
+        <span class="submenu_item">
+            <a href="#" class="menu_item">Услуги и решения</a>
             
 
 <div class="submenu">
@@ -66,14 +73,14 @@
                                 <a href="/Sections/Details/25" data-id="25">Автоматизированная система сверки деклараций</a>
                                 <a href="/Sections/Details/26" data-id="26">Декларант АлкоПлюс</a>
                                 <a href="/Sections/Details/27" data-id="27">Электронный журнал учета розничного оборота алкогольной продукции </a>
-                            <a href="http://j-pos.ru" data-id="28">ПО для комплекса ЕГАИС-розница</a>
+                            <a href="https://egais.alcospot.ru/Account/Login?ReturnUrl=%2f" data-id="28">ПО для комплекса ЕГАИС-розница</a>
                                 <a href="/Sections/Details/30" data-id="30">Система мониторинга сохранности перевозимых автотранспортом жидкостей</a>
-                                <a href="/Sections/Details/40" data-id="40">ЕГАИС - Экспресс</a>
                 </div>
                 <div class="col-md-4">
                     <h3>Оборудование</h3>
                     
                                 <a href="/Products/Categories/1">Оборудование для перевозки спирта</a>
+                                <a href="/Products/Categories/3">Оборудование для ЕГАИС</a>
                                 <a href="/Products/Categories/2">Проверка легальности ФСМ и АМ</a>
                                 <a href="/Products/Categories/4">Оборудование для производителей этилового спирта и алкогольной продукции</a>
                                 <a href="/Products/Categories/9">Готовые решения для ЕГАИС от компании Дримкас</a>
@@ -98,9 +105,16 @@
         
           
         </span>
-        <a href="/Files">Центр загрузки</a><a href="/About" class="navactive">О компании</a><a href="/Contacts">Контакты</a>
+        <a href="/Files">Центр загрузки</a><a href="/About">О компании</a><a href="/Contacts">Контакты</a>
     </nav>
+    
+    
 
+    <script>
+        $(function () {
+            $("nav.main-menu > a[href='/']").addClass("navactive");
+        });
+    </script>
 
 
 
@@ -127,11 +141,14 @@
     </div>
     
     
+    
 
 
     
 
     
+
+
 
 
 
@@ -141,233 +158,324 @@
         <div class="ind_pic_text">
             <strong>СОВРЕМЕННЫЕ</strong><br>ТЕХНОЛОГИИ УЧЁТА
         </div>
-        <div class="index_new"><a href="#" class="index_news_text">Минюстом зарегистрирован приказ <nobr>№ 74 от  24 марта</nobr></a></div>
+        
+            <div class="index_new">
+                <a href="/News/Details/57" class="index_news_text">
+                    Минюстом зарегистрирован приказ № 74 от  24 марта 2015 г.
+                </a>
+            </div>
     </div>
 </div>
 
-<div class="ind_block_section">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12">
-                <h2 class="ind_h2">Решения</h2>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4 col-lg-3">
-                <div class="ind_block">
-                    <a href="#">
-                        <img src="Content/front-content/css/img/index/ind_icon_1.png" />
-                        <img src="Content/front-content/css/img/index/ind_icon_1act.png" class="ind_block_act" />
-                        <div>
-                            Комплексы измерительные автоматизированного учета алкогольной продукции  «ALCOSPOT» АСИиУ
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-4 col-lg-3">
-                <div class="ind_block">
-                    <a href="#">
-                        <img src="Content/front-content/css/img/index/ind_icon_2.png" />
-                        <img src="Content/front-content/css/img/index/ind_icon_2act.png" class="ind_block_act" />
-                        <div>
-                            Автоматизированная система сверки деклараций
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-4 col-lg-3">
-                <div class="ind_block">
-                    <a href="#">
-                        <img src="Content/front-content/css/img/index/ind_icon_3.png" />
-                        <img src="Content/front-content/css/img/index/ind_icon_3act.png" class="ind_block_act" />
-                        <div>
-                            Декларант АлкоПлюс
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <div class="col-md-4 col-lg-3">
-                <div class="ind_block">
-                    <a href="#">
-                        <img src="Content/front-content/css/img/index/ind_icon_4.png" />
-                        <img src="Content/front-content/css/img/index/ind_icon_4act.png" class="ind_block_act" />
-                        <div>
-                            Электронный журнал учета розничного оборота алкогольной продукции
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-4 col-lg-3">
-                <div class="ind_block">
-                    <a href="#">
-                        <img src="Content/front-content/css/img/index/ind_icon_5.png" />
-                        <img src="Content/front-content/css/img/index/ind_icon_5act.png" class="ind_block_act" />
-                        <div>
-                            ПО для комплекса ЕГАИС-розница
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-4 col-lg-3">
-                <div class="ind_block">
-                    <a href="#">
-                        <img src="Content/front-content/css/img/index/ind_icon_6.png" />
-                        <img src="Content/front-content/css/img/index/ind_icon_6act.png" class="ind_block_act" />
-                        <div>
-                            Система мониторинга сохранности перевозимых автотранспортом жидкостей
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <div class="col-md-4 col-lg-3">
-                <div class="ind_block">
-                    <a href="#">
-                        <img src="Content/front-content/css/img/index/ind_icon_7.png" />
-                        <img src="Content/front-content/css/img/index/ind_icon_7act.png" class="ind_block_act" />
-                        <div>
-                            ЕГАИС - Экспресс
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-
-        </div>
-
-
-    </div>
-</div>
-
-<div class="ind_block_section">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12">
-                <h2 class="ind_h2">Оборудование</h2>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6">
-                <a href="#" class="ind_block_oborud" style="background-image: url('Content/front-content/css/img/index/ind_oborud1.png')">
-                    <img src="Content/front-content/css/img/index/ind_oborud1a.png" class="ind_block_oborud_a" />
-                    <p>Оборудование для перевозки спирта</p>
-                </a>
-            </div>
-            <div class="col-md-6">
-                <a href="#" class="ind_block_oborud" style="background-image: url('Content/front-content/css/img/index/ind_oborud2.png')">
-                    <img src="Content/front-content/css/img/index/ind_oborud2a.png" class="ind_block_oborud_a" />
-                    <p>Оборудование для ЕГАИС розница</p>
-                </a>
-            </div>
-            <div class="col-md-6">
-                <a href="#" class="ind_block_oborud" style="background-image: url('Content/front-content/css/img/index/ind_oborud3.png')">
-                    <img src="Content/front-content/css/img/index/ind_oborud3a.png" class="ind_block_oborud_a" />
-                    <p>Проверка легальности ФСМ и АМ</p>
-                </a>
-            </div>
-            <div class="col-md-6">
-                <a href="#" class="ind_block_oborud" style="background-image: url('Content/front-content/css/img/index/ind_oborud4.png')">
-                    <img src="Content/front-content/css/img/index/ind_oborud4a.png" class="ind_block_oborud_a" />
-                    <p>Оборудование для производителей этилового спирта и алкогольной продукции</p>
-                </a>
-            </div>
-        </div>
 
 
 
-    </div>
-</div>
-<div class="ind_block_uslugi">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12">
-                <h2 class="ind_h2">Услуги и сервисы</h2>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12">
-                <div class="ind_block_uslugi_links">
-                    <a href="#">Сопровождение и техническая поддержка ЕГАИС</a>
-                    <a href="#">Техническое обслуживание оборудования</a>
-                    <a href="#">Консультации участников алкогольного рынка</a>
-                    <a href="#">Выдача КЭП и JaCarta</a>
-                    <a href="#">ЕГАИС-Розница</a>
-                </div>
-            </div>
-        </div>
-
-    </div>
-</div>
-
-<div class="block_news">
+    <div class="ind_block_section">
         <div class="container">
-        <div class="row">
-            <div class="col-xs-12">
-<h2 class="ind_h2">Новости</h2>
-
-                <div class="owl-carousel">
-    <div class="item"><h4>
-        <div class="block_news1">
-                <a href="#">
-<div class="news_pic" style="background-image:url('css/img/news_pic.png')"></div>
-Минюстом зарегистрирован приказ № 74 от 24 марта 2015 г.
-                    </a>
-                    </div>
-                      </h4></div>
-                <div class="item"><h4>
-        <div class="block_news1">
-                <a href="#">
-<div class="news_pic" style="background-image:url('css/img/news_pic.png')"></div>
-Минюстом зарегистрирован приказ № 74 от 24 марта 2015 г.
-                    </a>
-                    </div>
-                      </h4></div>
-     <div class="item"><h4>
-        <div class="block_news1">
-                <a href="#">
-<div class="news_pic" style="background-image:url('css/img/news_pic.png')"></div>
-Минюстом зарегистрирован приказ № 74 от 24 марта 2015 г.
-                    </a>
-                    </div>
-                      </h4></div>
-     <div class="item"><h4>
-        <div class="block_news1">
-                <a href="#">
-<div class="news_pic" style="background-image:url('css/img/news_pic.png')"></div>
-Минюстом зарегистрирован приказ № 74 от 24 марта 2015 г.
-                    </a>
-                    </div>
-                      </h4></div>
-     <div class="item"><h4>
-        <div class="block_news1">
-                <a href="#">
-<div class="news_pic" style="background-image:url('css/img/news_pic.png')"></div>
-Минюстом зарегистрирован приказ № 74 от 24 марта 2015 г.
-                    </a>
-                    </div>
-                      </h4></div>
-                <div class="item"><h4>
-        <div class="block_news1">
-                <a href="#">
-<div class="news_pic" style="background-image:url('css/img/news_pic.png')"></div>
-Минюстом зарегистрирован приказ № 74 от 24 марта 2015 г.
-                    </a>
-                    </div>
-                      </h4></div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <h2 class="ind_h2">Решения</h2>
                 </div>
-                <br>
-                <div class="col-xs-12"><a href="#"><strong>Все новости</strong></a></div>
-
             </div>
+            <div class="row">
+                        <div class="col-md-4 col-lg-3">
+                            <div class="ind_block">
+                                
+
+
+                                <a href="/Sections/Details/9">
+                                    <img src="/Sections/Image/9" />
+                                    <img src="/Sections/ImageHover/9" class="ind_block_act" />
+                                    <div>
+                                        Комплексы измерительные автоматизированного учета алкогольной продукции &#160;&#171;ALCOSPOT&#187; АСИиУ 
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-3">
+                            <div class="ind_block">
+                                
+
+
+                                <a href="/Sections/Details/25">
+                                    <img src="/Sections/Image/25" />
+                                    <img src="/Sections/ImageHover/25" class="ind_block_act" />
+                                    <div>
+                                        Автоматизированная система сверки деклараций
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-3">
+                            <div class="ind_block">
+                                
+
+
+                                <a href="/Sections/Details/26">
+                                    <img src="/Sections/Image/26" />
+                                    <img src="/Sections/ImageHover/26" class="ind_block_act" />
+                                    <div>
+                                        Декларант АлкоПлюс
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-3">
+                            <div class="ind_block">
+                                
+
+
+                                <a href="/Sections/Details/27">
+                                    <img src="/Sections/Image/27" />
+                                    <img src="/Sections/ImageHover/27" class="ind_block_act" />
+                                    <div>
+                                        Электронный журнал учета розничного оборота алкогольной продукции 
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-3">
+                            <div class="ind_block">
+                                
+
+
+                                <a href="https://egais.alcospot.ru/Account/Login?ReturnUrl=%2f">
+                                    <img src="/Sections/Image/28" />
+                                    <img src="/Sections/ImageHover/28" class="ind_block_act" />
+                                    <div>
+                                        ПО для комплекса ЕГАИС-розница
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-3">
+                            <div class="ind_block">
+                                
+
+
+                                <a href="/Sections/Details/30">
+                                    <img src="/Sections/Image/30" />
+                                    <img src="/Sections/ImageHover/30" class="ind_block_act" />
+                                    <div>
+                                        Система мониторинга сохранности перевозимых автотранспортом жидкостей
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
             </div>
 
         </div>
+    </div>
+    <div class="ind_block_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h2 class="ind_h2">Оборудование</h2>
+                </div>
+            </div>
+            <div class="row">
+                            <div class="col-md-6">
+                                <a href="/Products/Categories/1" class="ind_block_oborud"
+                                   style="background-image: url('/ProductCategories/Image/1')">
+                                    <img src="/ProductCategories/ImageHover/1" class="ind_block_oborud_a" />
+                                    <p>Оборудование для перевозки спирта</p>
+                                </a>                               
+                            </div>
+                            <div class="col-md-6">
+                                <a href="/Products/Categories/3" class="ind_block_oborud"
+                                   style="background-image: url('/ProductCategories/Image/3')">
+                                    <img src="/ProductCategories/ImageHover/3" class="ind_block_oborud_a" />
+                                    <p>Оборудование для ЕГАИС</p>
+                                </a>                               
+                            </div>
+                            <div class="col-md-6">
+                                <a href="/Products/Categories/2" class="ind_block_oborud"
+                                   style="background-image: url('/ProductCategories/Image/2')">
+                                    <img src="/ProductCategories/ImageHover/2" class="ind_block_oborud_a" />
+                                    <p>Проверка легальности ФСМ и АМ</p>
+                                </a>                               
+                            </div>
+                            <div class="col-md-6">
+                                <a href="/Products/Categories/4" class="ind_block_oborud"
+                                   style="background-image: url('/ProductCategories/Image/4')">
+                                    <img src="/ProductCategories/ImageHover/4" class="ind_block_oborud_a" />
+                                    <p>Оборудование для производителей этилового спирта и алкогольной продукции</p>
+                                </a>                               
+                            </div>
+            </div>
+
         </div>
-    
+    </div>
+    <div class="ind_block_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h2 class="ind_h2">Услуги и сервисы</h2>
+                </div>
+            </div>
+            <div class="row">
+                    <div class="col-xs-12">
+                        <div class="ind_block_uslugi_links">
+                                    <a href="/Sections/Details/35">Сопровождение и техническая поддержка ЕГАИС</a>
+                                    <a href="/Sections/Details/36">Техническое обслуживание оборудования</a>
+                                    <a href="/Sections/Details/37">Консультации участников алкогольного рынка</a>
+                                    <a href="/Sections/Details/39">Выдача КЭП и JaCarta</a>
+                                    <a href="https://egais.alcospot.ru/Account/Login?ReturnUrl=%2f">ЕГАИС-Розница</a>
+                        
+                        </div>
+                    </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+       
+    <div class="block_news">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h2 class="ind_h2">Новости</h2>
+                    <div class="owl-carousel">
+                        
+                            <div class="item block_news1">
+                                <span>15.07.2015</span>
+                                <a href="/News/Details/57" class="news_cont">
+                                    <p>Минюстом зарегистрирован приказ № 74 от  24 марта 2015 г.</p>
+                                </a>
+                            </div>                                
+                            <div class="item block_news1">
+                                <span>16.02.2015</span>
+                                <a href="/News/Details/56" class="news_cont">
+                                    <p>АСИиУ для пива</p>
+                                </a>
+                            </div>                                
+                            <div class="item block_news1">
+                                <span>03.12.2014</span>
+                                <a href="/News/Details/45" class="news_cont">
+                                    <p>Лицензия ФСБ</p>
+                                </a>
+                            </div>                                
+                            <div class="item block_news1">
+                                <span>18.04.2014</span>
+                                <a href="/News/Details/44" class="news_cont">
+                                    <p>Новый АСИиУ</p>
+                                </a>
+                            </div>                                
+                            <div class="item block_news1">
+                                <span>06.02.2014</span>
+                                <a href="/News/Details/43" class="news_cont">
+                                    <p>С 1 января 2014 года больше не нужно оформлять Разрешение Ростехнадзора на применение для оборудования, эксплуатируемого на опасных производственных объектах </p>
+                                </a>
+                            </div>                                
+                            <div class="item block_news1">
+                                <span>03.12.2013</span>
+                                <a href="/News/Details/42" class="news_cont">
+                                    <p>Помощь в приобретении автоцистерн</p>
+                                </a>
+                            </div>                                
+                            <div class="item block_news1">
+                                <span>02.12.2013</span>
+                                <a href="/News/Details/40" class="news_cont">
+                                    <p>ВНИМАНИЕ ДЕРЖАТЕЛЕЙ ЭЦП!</p>
+                                </a>
+                            </div>                                
+                            <div class="item block_news1">
+                                <span>16.10.2013</span>
+                                <a href="/News/Details/39" class="news_cont">
+                                    <p>Договор на ГЛОНАСС Мониторинг</p>
+                                </a>
+                            </div>                                
+                            <div class="item block_news1">
+                                <span>07.09.2013</span>
+                                <a href="/News/Details/38" class="news_cont">
+                                    <p>Мы начинаем компанию по заключению Договоров на ТО</p>
+                                </a>
+                            </div>                                
+                            <div class="item block_news1">
+                                <span>06.09.2013</span>
+                                <a href="/News/Details/37" class="news_cont">
+                                    <p>Росалкоголь выложил проект техусловий АСКП</p>
+                                </a>
+                            </div>                                
+                            <div class="item block_news1">
+                                <span>04.07.2013</span>
+                                <a href="/News/Details/36" class="news_cont">
+                                    <p>Автоматическая система сверки алкогольных деклараций</p>
+                                </a>
+                            </div>                                
+                            <div class="item block_news1">
+                                <span>01.07.2013</span>
+                                <a href="/News/Details/35" class="news_cont">
+                                    <p>Вниманию организаций, получивших лицензии</p>
+                                </a>
+                            </div>                                
+                            <div class="item block_news1">
+                                <span>01.07.2013</span>
+                                <a href="/News/Details/34" class="news_cont">
+                                    <p>Так выглядит лицензия на перевозку этилового спирта</p>
+                                </a>
+                            </div>                                
+                            <div class="item block_news1">
+                                <span>27.04.2013</span>
+                                <a href="/News/Details/33" class="news_cont">
+                                    <p>Принимаем заказы на изготовление автоцистерн для перевозки спирта</p>
+                                </a>
+                            </div>                                
+                            <div class="item block_news1">
+                                <span>19.04.2013</span>
+                                <a href="/News/Details/32" class="news_cont">
+                                    <p>Мы в АСКП Росалкогольрегулирования!</p>
+                                </a>
+                            </div>                                
+                            <div class="item block_news1">
+                                <span>15.04.2013</span>
+                                <a href="/News/Details/31" class="news_cont">
+                                    <p>О поверке средств измерения</p>
+                                </a>
+                            </div>                                
+                            <div class="item block_news1">
+                                <span>04.04.2013</span>
+                                <a href="/News/Details/30" class="news_cont">
+                                    <p>Нами внедрена Автоматизированная система сверки алкогольных деклараций </p>
+                                </a>
+                            </div>                                
+                            <div class="item block_news1">
+                                <span>12.03.2013</span>
+                                <a href="/News/Details/29" class="news_cont">
+                                    <p>Договора на пуско-наладочные работы</p>
+                                </a>
+                            </div>                                
+                            <div class="item block_news1">
+                                <span>14.01.2013</span>
+                                <a href="/News/Details/27" class="news_cont">
+                                    <p>Центр ИКТ приступил к реализации предустановленных терминалов сбора информации с ФСМ</p>
+                                </a>
+                            </div>                                
+                            <div class="item block_news1">
+                                <span>14.01.2013</span>
+                                <a href="/News/Details/26" class="news_cont">
+                                    <p>Компания ООО Центр ИКТ приступила к оснащению первых автоцистерн системами контроля перевозок этилового спирта на территории РФ и системами учета объемов.</p>
+                                </a>
+                            </div>                                
+                            <div class="item block_news1">
+                                <span>01.12.2012</span>
+                                <a href="/News/Details/25" class="news_cont">
+                                    <p>Начались отгрузки оборудования</p>
+                                </a>
+                            </div>                                
+
+                    </div>
+                    <br>
+                    <div class="col-xs-12"><a href="/News"><strong>Все новости</strong></a></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
 
     
-
 
     <div class="footer">
         <div class="foot_cont">
@@ -389,15 +497,15 @@
                                     <a href="/Sections/Details/25">Автоматизированная система сверки деклараций</a>
                                     <a href="/Sections/Details/26">Декларант АлкоПлюс</a>
                                     <a href="/Sections/Details/27">Электронный журнал учета розничного оборота алкогольной продукции </a>
-                                <a href="http://j-pos.ru">ПО для комплекса ЕГАИС-розница</a>
+                                <a href="https://egais.alcospot.ru/Account/Login?ReturnUrl=%2f">ПО для комплекса ЕГАИС-розница</a>
                                     <a href="/Sections/Details/30">Система мониторинга сохранности перевозимых автотранспортом жидкостей</a>
-                                    <a href="/Sections/Details/40">ЕГАИС - Экспресс</a>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="foot_block_links">
                     <div class="foot_block_tit">ОБОРУДОВАНИЕ</div>
                                     <a href="/Products/Categories/1">Оборудование для перевозки спирта</a>
+                                    <a href="/Products/Categories/3">Оборудование для ЕГАИС</a>
                                     <a href="/Products/Categories/2">Проверка легальности ФСМ и АМ</a>
                                     <a href="/Products/Categories/4">Оборудование для производителей этилового спирта и алкогольной продукции</a>
                                     <a href="/Products/Categories/9">Готовые решения для ЕГАИС от компании Дримкас</a>
@@ -467,6 +575,96 @@
     
     
     
+
+
+    <!-- Корзина -->
+<div id="user-basket-window" class="modal fade in" role="dialog" style="padding-right: 17px;">
+    <div id="dialogContent" class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">×</button>
+                <h4 class="modal-title"></h4>
+            </div>
+            <div class="modal-body">
+                <!-- Modal content-->
+                <div class="box1">
+                    <div class="box1_title"><li><img src="/Content/front-content/css/img/ic_trash.png" width="20" style="margin-right:10px;">Корзина</li></div>
+                    <div class="table2">
+                        <ul class="table2_title">
+                            <li>Наименование</li>
+                            <li>Цена</li>
+                            <li>Кол-во</li>
+                            <li><span style="color:#FF543F;">Удл.</span></li>
+                        </ul>
+                        <ul>
+                            <li>Сопровождение и техническая поддержка ЕГАИС</li>
+                            <li><strong>18000</strong> руб</li>
+                            <li><strong>3</strong></li>
+                            <li><a href="https://rawgit.com/petrlev1/7_centrikt_site/master/index.html#" class="table_but_trash"></a></li>
+                        </ul>
+                        <ul>
+                            <li>Сканер штрихкодовMotorola DS4308</li>
+                            <li><strong>18000</strong> руб</li>
+                            <li>
+                                <!-- input-group -->
+                                <div class="qtyall">
+                                    <form>
+                                        <a href="" class="qtyminus" field="quantity"></a>
+                                        <input type="text" name="quantity" value="0" class="qty">
+                                        <a href="" class="qtyplus" field="quantity"></a>
+                                    </form><!-- /input-group -->
+                                </div>
+                            </li>
+                            <li><a href="https://rawgit.com/petrlev1/7_centrikt_site/master/index.html#" class="table_but_trash"></a></li>
+                        </ul>
+                        <ul>
+                            <li>Сканер штрихкодовMotorola DS4308</li>
+                            <li><strong>18000</strong> руб</li>
+                            <li>
+                                <!-- input-group -->
+                                <div class="qtyall">
+                                    <form>
+                                        <a href="" class="qtyminus" field="quantity"></a>
+                                        <input type="text" name="quantity" value="0" class="qty">
+                                        <a href="" class="qtyplus" field="quantity"></a>
+                                    </form>
+                                </div>
+                                <!-- /input-group -->
+                            </li>
+                            <li><a href="https://rawgit.com/petrlev1/7_centrikt_site/master/index.html#" class="table_but_trash"></a></li>
+                        </ul>
+                        <ul>
+                            <li>Сканер штрихкодовMotorola DS4308</li>
+                            <li><strong>18000</strong> руб</li>
+                            <li>
+                                <!-- input-group -->
+                                <div class="qtyall">
+                                    <form>
+                                        <a href="" class="qtyminus" field="quantity"></a>
+                                        <input type="text" name="quantity" value="0" class="qty">
+                                        <a href="" class="qtyplus" field="quantity"></a>
+                                    </form><!-- /input-group -->
+                                </div>
+                            </li>
+                            <li><a href="https://rawgit.com/petrlev1/7_centrikt_site/master/index.html#" class="table_but_trash"></a></li>
+                        </ul>
+                    </div>
+                    <div class="trash_foot">
+                        <div style="margin-bottom: 12px; margin-top:5px;">В корзине <strong>6</strong> услуг/товаров на сумму <strong>11950,00</strong> руб</div>
+                        <div class="note2 note1_suc">Уважаемый клиент! Если вы являетесь индивидуальным предпринимателем, и у вас нет расчетного счета, чтобы заказать услугу, "<strong>Оказание технической и консультационной поддержки в процессе работы ЕГАИС</strong>", вам нужно оплатить <strong><a href="https://centrikt.ru/BillContract/Quittance" target="_blank">квитанцию</a></strong>.</div>
+                    </div>
+                </div>
+                <!-- /Modal content-->
+
+            </div>
+            <div class="modal-footer">
+                <a href="https://rawgit.com/petrlev1/7_centrikt_site/master/index.html#" class="btn btn-success" style="float:left;">Оформить заказ</a><button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- /Корзина -->
     
     
     
@@ -613,5 +811,10 @@
     <script src="/Scripts/inputs.js"></script>
     
     
+    <script src="/Content/front-content/js/owl.carousel_setup.js"></script>
+    
+    <script type="text/javascript">
+        document.write("<a href='http://www.liveinternet.ru/click' " + "target=_blank><img src='//counter.yadro.ru/hit?t44.1;r" + escape(document.referrer) + ((typeof (screen) == "undefined") ? "" : ";s" + screen.width + "*" + screen.height + "*" + (screen.colorDepth ? screen.colorDepth : screen.pixelDepth)) + ";u" + escape(document.URL) + ";" + Math.random() + "' alt='' title='LiveInternet' " + "border='0' width='31' height='31'><\/a>")
+    </script>
 </body>
 </html>

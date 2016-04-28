@@ -80,7 +80,7 @@ nav {
     white-space: nowrap;
     color: #2185C5;
     padding: 10px 20px 10px 20px;
-    margin: 10px 6px 0 6px;
+    margin: 10px 5px 0 5px;
     transition: color 0.3s ease 0s; }
     nav a:hover {
       color: #6EC9EF; }
@@ -679,7 +679,7 @@ p {
   font-size: 18px;
   padding: 0 20px 0 20px;
   border: 1px #B5B5B5 solid;
-  min-height: 115px;
+  height: 115px;
   width: 100%;
   margin: 5px 0;
   font-weight: 100; }
@@ -870,7 +870,7 @@ p {
     width: 970px;
     top: 47px; }
     nav a {
-      padding: 10px 15px 10px 15px;
+      padding: 10px 14px 10px 14px;
       margin: 10px 0 0 0;
       font-size: 15px; }
 

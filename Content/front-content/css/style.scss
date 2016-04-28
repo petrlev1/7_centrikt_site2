@@ -5,7 +5,7 @@ a{text-decoration: none; border-style: none; transition: color 0.3s ease 0s; col
     &:active {text-decoration: none; }
 }
 
-.head {border-bottom: 1px #c0ddf0 solid; height: 120px;}
+.head {border-bottom: 1px #c0ddf0 solid; height: 120px; }
 
 .head_line {position: absolute; background-color:#0078C3; right: 0; width: 50%; }
 
@@ -33,9 +33,11 @@ nav{ position: absolute; top: 47px; text-align: left; width: 1170px; left: 0; ri
     
      &:hover .submenu{display: block;}
     
-    a { display: inline-block; font-size: 16px; white-space: nowrap; color: #2185C5; padding: 20px 26px 25px 26px; transition: color 0.3s ease 0s; 
+    a { display: inline-block; font-size: 16px; white-space: nowrap; color: #2185C5; padding: 10px 20px 10px 20px; margin: 10px 5px 0 5px; transition: color 0.3s ease 0s; 
          &:hover{color:#6EC9EF;}
         }
+    
+    .navactive {color:#6EC9EF;}
        
 }
 
@@ -43,9 +45,10 @@ nav{ position: absolute; top: 47px; text-align: left; width: 1170px; left: 0; ri
 .adapt_but {display: none;}
 .adapt_but_chek {display: none;}
 
-.menu_item { background: url(img/item_arrow.png) no-repeat; background-position: right 5px top 26px;}
+.menu_item { background: url(img/item_arrow.png) no-repeat; background-position: right 0 top 17px;
+    &:hover{ padding-bottom: 50px; }}
 
-.submenu { display: none; position: absolute; width: 100%; background-color: #DCF1FA; text-align: left;
+.submenu { display: none; top: 73px; position: absolute; width: 100%; background-color: #DCF1FA; text-align: left;
     max-height: 0;
     transition: max-height 0.15s ease-out;
     overflow: hidden;
@@ -58,7 +61,7 @@ nav{ position: absolute; top: 47px; text-align: left; width: 1170px; left: 0; ri
 }
 
 
-.submenu_item {
+.submenu_item { 
     &:hover > .submenu {
     max-height: 600px;
     transition: max-height 0.25s ease-in;}
@@ -329,7 +332,7 @@ p{margin: 15px 0;}
 
 .blank_radiobut_top { color: #fff; background-color: #0078C3; padding: 5px 10px; margin-bottom: 20px; margin-top: 10px;}
 
-.blank_radiobut {display: table; font-size: 18px; padding: 0 20px 0 20px; border: 1px #B5B5B5 solid; min-height: 115px; width: 100%; margin: 5px 0; font-weight: 100;
+.blank_radiobut {display: table; font-size: 18px; padding: 0 20px 0 20px; border: 1px #B5B5B5 solid; height: 115px; width: 100%; margin: 5px 0; font-weight: 100;
     &:hover  {border: 5px #0078C3 solid;}
     span {display: table-cell; vertical-align: middle; }}
 
@@ -468,10 +471,10 @@ p{margin: 15px 0;}
     .logo {width:  325px; left: 0;}
     
     nav{ width: 970px; top: 47px;
-    a {padding: 23px 15px; font-size: 15px; }
+    a {padding: 10px 14px 10px 14px; margin: 10px 0 0 0; font-size: 15px; }
     }
     
-    .menu_item { background-position: right -2px top 29px;}
+    .menu_item { background-position: right 0 top 16px;}
     
     .about_etsp_img { width: 35%; top: 35px; right: -600px; left: 0; margin: 0 auto;}
 
@@ -495,11 +498,12 @@ p{margin: 15px 0;}
     
 .login{margin-right: 15px;}
     
-nav{ text-align: center; width: 100%; top: 130px; 
-    a {padding: 15px 20px;} 
+nav{ text-align: center; width: 100%; top: 125px; 
+    a {padding: 10px 20px;} 
 }
     
-    .menu_item {background: none;}
+    .menu_item {background: none;
+    &:hover{ padding-bottom: 0; }}
     
     .submenu_item {
     &:hover > .submenu {display: none;}
@@ -555,6 +559,8 @@ nav { top: 50px; background-color: #fff; padding: 10px 0; overflow: hidden; tran
     .adapt_but { position: absolute; display: block; width: 43px; height: 43px; top:2px; left:6px; background: url(img/adapt_but.png) top left no-repeat; background-size: contain; border-radius: 5px; z-index: 3;
 &:hover{background-color: #4db8e5; cursor: pointer;}
 }
+
+    
 
 .adapt_but_label { position: absolute; display: block; width: 43px; height: 43px; top:0; left:6px; z-index: 1;}
 
