@@ -1,0 +1,640 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Готовые решения для ЕГАИС от компании Дримкас</title>
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <script src="http://89.31.20.102:50000/Content/front-content/js/jquery.min.js"></script>
+
+    <link href="http://89.31.20.102:50000/Content/front-content/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="http://89.31.20.102:50000/Content/front-content/js/bootstrap.min.js"></script>
+    <link href="http://89.31.20.102:50000/Content/front-content/css/style.css" rel="stylesheet" type="text/css">
+
+    <script src="http://89.31.20.102:50000/Content/kendo/kendo.all.min.js"></script>
+</head>
+<body>
+
+
+    <nav>
+        <a href="/News">Новости</a><span class="submenu_item">
+             <a href="#" class="menu_item">Услуги и решения</a>
+            
+
+<div class="submenu">
+    <div class="container">
+        <div class="row">
+                
+                <div class="col-md-4">
+                    <h3>Решения</h3>
+                    
+                                <a href="/Sections/Details/9" data-id="9">Комплексы измерительные автоматизированного учета алкогольной продукции &#160;&#171;ALCOSPOT&#187; АСИиУ </a>
+                                <a href="/Sections/Details/25" data-id="25">Автоматизированная система сверки деклараций</a>
+                                <a href="/Sections/Details/26" data-id="26">Декларант АлкоПлюс</a>
+                                <a href="/Sections/Details/27" data-id="27">Электронный журнал учета розничного оборота алкогольной продукции </a>
+                            <a href="http://j-pos.ru" data-id="28">ПО для комплекса ЕГАИС-розница</a>
+                                <a href="/Sections/Details/30" data-id="30">Система мониторинга сохранности перевозимых автотранспортом жидкостей</a>
+                                <a href="/Sections/Details/40" data-id="40">ЕГАИС - Экспресс</a>
+                </div>
+                <div class="col-md-4">
+                    <h3>Оборудование</h3>
+                    
+                                <a href="/Products/Categories/1">Оборудование для перевозки спирта</a>
+                                <a href="/Products/Categories/2">Проверка легальности ФСМ и АМ</a>
+                                <a href="/Products/Categories/4">Оборудование для производителей этилового спирта и алкогольной продукции</a>
+                                <a href="/Products/Categories/9">Готовые решения для ЕГАИС от компании Дримкас</a>
+                                <a href="/Products/Categories/10">Оборудование для ЕГАИС от компании Атол</a>
+                                <a href="/Products/Categories/7">Комплектующие для ЕГАИС</a>
+                </div>
+                <div class="col-md-4">
+                    <h3>Услуги и сервисы</h3>
+                    
+                                <a href="/Sections/Details/35" data-id="35">Сопровождение и техническая поддержка ЕГАИС</a>
+                                <a href="/Sections/Details/36" data-id="36">Техническое обслуживание оборудования</a>
+                                <a href="/Sections/Details/37" data-id="37">Консультации участников алкогольного рынка</a>
+                                <a href="/Sections/Details/39" data-id="39">Выдача КЭП и JaCarta</a>
+                                <a href="https://egais.alcospot.ru/Account/Login?ReturnUrl=%2f" data-id="58">ЕГАИС-Розница</a>
+                </div>
+
+              
+        </div>
+    </div>
+</div>
+
+        
+          
+        </span>
+        <a href="/Files">Центр загрузки</a><a href="/About">О компании</a><a href="/Contacts">Контакты</a>
+    </nav>
+
+
+
+
+    <div class="head_line"><div class="head_cont">#</div></div>
+    <div class="head">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-lg-4" style="text-align:left;">
+                    <a href="/">
+                        <img src="http://89.31.20.102:50000/Content/front-content/css/img/logo.png" class="logo">
+                    </a>
+                </div>
+                <div class="col-md-8 col-lg-8">
+                    <div class="head_cont">
+                        <span class="contacts_up"><span style="color:#7AD9FF;">+7 (499)</span> 653-61-43 <a href="mailto:info@centrikt.ru" style="margin-left:20px;">info@centrikt.ru</a></span>
+                        <a href="/Account/Login" class="login">Вход</a>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="in_cont">
+            <div class="container">
+                
+
+
+<div class="row">
+<form action="/EDS/CreateTicket" class="form-horizontal ng-pristine ng-valid" method="post" role="form" novalidate="novalidate">        <div class="col-md-12">
+            <h2>Бланк-заявка для изготовления КЭП и JaCarta</h2>
+            <div class="validation-summary-valid" data-valmsg-summary="true"><ul><li style="display:none"></li>
+</ul></div>
+            <div class="blank_radiobut_top">Выберите продукт:</div>
+        </div>
+        <div class="col-md-6">
+            <input type="radio" name="ProductName" id="ProductName" class="blank_chek" value="КЭП (для сдачи декларации в Росалкогольрегулирование)">
+            <label for="ProductName" class="blank_radiobut"><span>КЭП (для сдачи декларации в Росалкогольрегулирование)</span></label>
+        </div>
+        <div class="col-md-6">
+
+
+            <input type="radio" id="ProductName1" name="ProductName" value="КЭП + JaCarta (для ЕГАИС)" class="blank_chek">
+            <label for="ProductName1" class="blank_radiobut"><span>КЭП + JaCarta (для ЕГАИС)</span></label>
+
+        </div>
+<span class="field-validation-valid" data-valmsg-for="ProductName" data-valmsg-replace="true"></span>        <div class="col-md-12">
+            <div class="blank_num">
+                В количестве: 
+                <input class="text-box single-line" data-val="true" data-val-number="Значением поля Количество продукта должно быть число." data-val-required="Необходимо выбрать количество продукта" id="Amount" name="Amount" type="number" value="">  
+                <span class="field-validation-valid" data-valmsg-for="Amount" data-valmsg-replace="true"></span>
+            </div>
+            <div class="space_line"></div>
+            <h3>Данные об организации</h3>
+            <div class="blank_table">
+                <ul>
+                    <li class="blank_table_left">
+                        Сокращенное наименование организации
+                    </li>
+                    <li>                    
+                        <input class="text-box single-line form-control" data-val="true" data-val-required="Необходимо ввести сокращенное наименование организации" id="OrganisationNameShort" name="OrganisationNameShort" type="text" value="">
+                        <div class="blank_table_note">Согласно написанию в Свидетельстве ОГРН или ЕГРЮЛ. Например: ООО "ПиК" или ИП Петров Пётр Петрович. Для ввода угловых кавычек « » используйте копирование и вставку. Для филиалов – указывается наименование головной организации</div>
+                        <span class="field-validation-valid" data-valmsg-for="OrganisationNameShort" data-valmsg-replace="true"></span>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="blank_table_left">
+                        Полное наименование организации
+                    </li>
+                    <li>                   
+                        <input class="text-box single-line form-control" data-val="true" data-val-required="Необходимо ввести наименование организации" id="OrganisationName" name="OrganisationName" type="text" value="">
+                        <div class="blank_table_note">Согласно учредительным документам. Например: Общество с ограниченной ответственностью «Бета» или Индивидуальный предприниматель Петров Владимир Анатольевич. Для ввода угловых кавычек « » используйте копирование и вставку.</div>
+                        <span class="field-validation-valid" data-valmsg-for="OrganisationName" data-valmsg-replace="true"></span>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="blank_table_left">
+                        Телефон
+                    </li>
+                    <li>
+                        <input class="text-box single-line form-control" data-val="true" data-val-required="Необходимо ввести телефон" id="OrganisationPhone" name="OrganisationPhone" type="text" value="">
+                        <div class="blank_table_note">Укажите контактный телефон с кодом города, в формате (000)000-00-00</div>
+                        <span class="field-validation-valid" data-valmsg-for="OrganisationPhone" data-valmsg-replace="true"></span>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="blank_table_left">
+                        Факс
+                    </li>
+                    <li>                    
+                        <input class="text-box single-line form-control" data-val="true" data-val-required="Необходимо ввести факс" id="OrganisationFax" name="OrganisationFax" type="text" value="">
+                        <div class="blank_table_note">Укажите факс для отправки документов с кодом города, в формате (000)000-00-00</div>
+                        <span class="field-validation-valid" data-valmsg-for="OrganisationFax" data-valmsg-replace="true"></span>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="blank_table_left">
+                        Email
+                    </li>
+                    <li>                    
+                        <input class="text-box single-line form-control" data-val="true" data-val-regex="Неверный формат электронной почты" data-val-regex-pattern="^[a-z0-9_\+-]+(\.[a-z0-9_\+-]+)*@[a-z0-9-]+(\.[a-z0-9]+)*\.([a-z]{2,4})$" data-val-required="Необходимо ввести Email" id="OrganisationEmail" name="OrganisationEmail" type="text" value="">
+                        <div class="blank_table_note">Адрес электронной почты. На данный адрес будут направляться уведомления</div>
+                        
+                        <span class="field-validation-valid" data-valmsg-for="OrganisationEmail" data-valmsg-replace="true"></span>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="blank_table_left">
+                        ИНН организации
+                    </li>
+                    <li>                    
+                        <input class="text-box single-line form-control" data-val="true" data-val-required="Необходимо ввести ИНН организации" data-val-validateallnumbers="В поле ИНН организации могут быть только цифры" data-val-validateinn="Длина поля ИНН должна быть 10 цифр для организаций или 12 цифр для ИП" id="OrganisationInn" name="OrganisationInn" type="text" value="">
+                        <div class="blank_table_note">ИНН организации, 10 цифр для огранизаций, 12 цифр для ИП</div>
+                        <span class="field-validation-valid" data-valmsg-for="OrganisationInn" data-valmsg-replace="true"></span>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="blank_table_left">
+                        КПП организации
+                    </li>
+                    <li>                    
+                        <input class="text-box single-line form-control" data-val="true" data-val-validateallnumbers="В поле КПП организации могут быть только цифры" data-val-validatekpp="Длина поля КПП должна быть 9 цифр для организаций или оно должно быть пустым (для ИП)" id="OrganisationKpp" name="OrganisationKpp" type="text" value="">
+                        <div class="blank_table_note">КПП организации, 9 цифр для огранизаций, для ИП поле оставьте пустым</div>
+                        <span class="field-validation-valid" data-valmsg-for="OrganisationKpp" data-valmsg-replace="true"></span>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="blank_table_left">
+                        ОГРН (ОГРНИП)
+                    </li>
+                    <li>                   
+                        <input class="text-box single-line form-control" data-val="true" data-val-required="Необходимо ввести ОГРН (ОГРНИП)" data-val-validateallnumbers="В поле ОГРН (ОГРНИП) организации могут быть только цифры" data-val-validateogrn="Длина поля ОГРН (ОГРНИП) должна быть 13 цифр для организаций или 15 цифр (для ИП)" id="OrganisationOgrn" name="OrganisationOgrn" type="text" value="">
+                        <div class="blank_table_note">13 цифр для организаций, 15 цифр для ИП</div>
+                        <span class="field-validation-valid" data-valmsg-for="OrganisationOgrn" data-valmsg-replace="true"></span>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="blank_table_left">
+                        Юридический адрес
+                    </li>
+                    <li>                   
+                        <input class="text-box single-line form-control" data-val="true" data-val-required="Необходимо ввести юридический адрес" id="LegalAddress" name="LegalAddress" type="text" value="">
+                        <div class="blank_table_note">Согласно учредительным документам. Используется для оформления договоров и бухгалтерских документов (счет-фактуры). Например: 198099, г.Санкт-Петербург, ул. Улица, д. 0, корп. 0, пом. 0Н</div>
+                        <span class="field-validation-valid" data-valmsg-for="LegalAddress" data-valmsg-replace="true"></span>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="blank_table_left">
+                        Почтовый адрес
+                    </li>
+                    <li>                   
+                        <input class="text-box single-line form-control" data-val="true" data-val-required="Необходимо ввести почтовый адрес" id="PostAddress" name="PostAddress" type="text" value="">
+                        <div class="blank_table_note">Используется для отправки корреспонденции</div>
+                        <span class="field-validation-valid" data-valmsg-for="PostAddress" data-valmsg-replace="true"></span>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="blank_table_left">
+                        ФИО контактного лица
+                    </li>
+                    <li>                    
+                        <input class="text-box single-line form-control" data-val="true" data-val-required="Необходимо ввести ФИО контактного лица" id="ContactFio" name="ContactFio" type="text" value="">
+                        <div class="blank_table_note">Используется для связи</div>
+                        <span class="field-validation-valid" data-valmsg-for="ContactFio" data-valmsg-replace="true"></span>
+                    </li>
+                </ul>
+            </div>
+            <div class="space_line"></div>
+            <h3>Банковские реквизиты</h3>
+            <div class="blank_table">
+                <ul>
+                    <li class="blank_table_left">
+                        Расчетный счет
+                    </li>
+                    <li>
+                        <input class="text-box single-line form-control" data-val="true" data-val-length="Длина поля Расчетный счет должна быть 20 символов" data-val-length-max="20" data-val-length-min="20" data-val-required="Неоходимо ввести расчетный счет" data-val-validateallnumbers="В номере расчетного счета допустимы только цифры" id="Rsch" name="Rsch" type="text" value="">
+                        <div class="blank_table_note">Расчётный счёт. Состоит из 20 символов. При отсутствии – укажите нули.</div>
+                        <span class="field-validation-valid" data-valmsg-for="Rsch" data-valmsg-replace="true"></span>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="blank_table_left">
+                        Наименование банка
+                    </li>
+                    <li>                    
+                        <input class="text-box single-line form-control" data-val="true" data-val-length="Максимальная длина поля Наименование банка - 255 символов" data-val-length-max="255" data-val-required="Необходимо ввести наименование банка" id="BankName" name="BankName" type="text" value="">
+                        <div class="blank_table_note">Максимальный размер поля - 255 символов. При отсутствии – напишите «Отсутствует»</div>
+                        <span class="field-validation-valid" data-valmsg-for="BankName" data-valmsg-replace="true"></span>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="blank_table_left">
+                        БИК
+                    </li>
+                    <li>                    
+                        <input class="text-box single-line form-control" data-val="true" data-val-length="Поле БИК должно состоять из 9 символов" data-val-length-max="9" data-val-length-min="9" data-val-required="Необходимо ввести БИК" data-val-validateallnumbers="В поле БИК допустимы только цифры" id="Bik" name="Bik" type="text" value="">
+                        <div class="blank_table_note">БИК состоит из 9 цифр. При отсутствии – укажите нули</div>
+                        <span class="field-validation-valid" data-valmsg-for="Bik" data-valmsg-replace="true"></span>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="blank_table_left">
+                        Корреспондентский счет
+                    </li>
+                    <li>
+                        <input class="text-box single-line form-control" data-val="true" data-val-length="Длина поля Корреспондентский счет должна быть 20 символов" data-val-length-max="20" data-val-length-min="20" data-val-required="Необходимо ввести корреспондентский счет" data-val-validateallnumbers="В номере корреспондентского счета допустимы только цифры" id="Ksch" name="Ksch" type="text" value="">
+                        <div class="blank_table_note">Корреспондентский счёт состоит из 20 цифр. При отсутствии – укажите нули</div>
+                        <span class="field-validation-valid" data-valmsg-for="Ksch" data-valmsg-replace="true"></span>
+                    </li>
+                </ul>
+            </div>
+            <div class="space_line"></div>
+            <h3>Данные о руководителе организации</h3>
+            <div class="blank_table">
+                <ul>
+                    <li class="blank_table_left">
+                        ФИО руководителя
+                    </li>
+                    <li>                    
+                        <input class="text-box single-line form-control" data-val="true" data-val-required="Необходимо ввести ФИО руководителя" id="DirectorFio" name="DirectorFio" type="text" value="">
+                        <div class="blank_table_note">Фамилия Имя Отчество руководителя в именительном падеже. Например: Иванов Иван Иванович</div>
+                        <span class="field-validation-valid" data-valmsg-for="DirectorFio" data-valmsg-replace="true"></span>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="blank_table_left">
+                        Должность руководителя
+                    </li>
+                    <li>
+                        <input class="text-box single-line form-control" data-val="true" data-val-required="Необходимо ввести должность руководителя" id="DirectorPosition" name="DirectorPosition" type="text" value="">
+                        <div class="blank_table_note">Должность руководителя в именительном падеже. Например: Генеральный директор, Директор филиала или Индивидуальный предприниматель</div>
+                        <span class="field-validation-valid" data-valmsg-for="DirectorPosition" data-valmsg-replace="true"></span>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="blank_table_left">
+                        Основание действия руководителя в родительном падеже
+                    </li>
+                    <li>                    
+                        <input class="text-box single-line form-control" data-val="true" data-val-required="Необходимо ввести основание действия руководителя в родительном падеже" id="DirectorBase" name="DirectorBase" type="text" value="">
+                        <div class="blank_table_note">
+                            Для лица, имеющего полномочия действовать без доверенности - Устава/Положения/Приказа (в зависимости от формы собственности)
+                            <br>
+                            Для лица, имеющего полномочия действовать по доверенности – Доверенность ДАТА, НОМЕР
+                            <br>
+                            Для Индивидуального предпринимателя – Свидетельство о госрегистрации СЕРИЯ, НОМЕР
+                        </div>
+                        <span class="field-validation-valid" data-valmsg-for="DirectorBase" data-valmsg-replace="true"></span>
+                    </li>
+                </ul>
+            </div>
+            <div class="space_line"></div>
+            <h3>Сведения о пользователе сертификата</h3>
+            <div class="blank_table">
+                <ul>
+                    <li class="blank_table_left">
+                        Фамилия владельца сертификата
+                    </li>
+                    <li>                    
+                        <input class="text-box single-line form-control" data-val="true" data-val-length="В поле &quot;Фамилия владельца сертификата&quot; должно быть не более 64 символов" data-val-length-max="64" data-val-required="Необходимо ввести фамилию владельца сертификата" id="SertificateOwnerFamily" name="SertificateOwnerFamily" type="text" value="">
+                        <div class="blank_table_note"><span class="note1_red">Внимание!</span> Должно быть указано лицо, являющееся руководителем организации (руководителем филиала организации или уполномоченным представителем организации), либо лицо, являющееся индивидуальным предпринимателем, действующим от своего имени. Пример заполнения: Иванов. Не более 64 символов</div>
+                        <span class="field-validation-valid" data-valmsg-for="SertificateOwnerFamily" data-valmsg-replace="true"></span>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="blank_table_left">
+                        Имя и отчество владельца сертификата
+                    </li>
+                    <li>                    
+                        <input class="text-box single-line form-control" data-val="true" data-val-length="В поле &quot;Имя и отчество владельца сертификата&quot; должно быть не более 64 символов" data-val-length-max="64" data-val-required="Необходимо ввести имя и отчество владельца сертификата" id="SertificateOwnerIO" name="SertificateOwnerIO" type="text" value="">
+                        <div class="blank_table_note"><span class="note1_red">Внимание!</span> Должно быть указано лицо, являющееся руководителем организации (руководителем филиала организации или уполномоченным представителем организации), либо лицо, являющееся индивидуальным предпринимателем, действующим от своего имени. Пример заполнения: Иванов. Не более 64 символов</div>
+                        <span class="field-validation-valid" data-valmsg-for="SertificateOwnerIO" data-valmsg-replace="true"></span>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="blank_table_left">
+                        Должность владельца сертификата
+                    </li>
+                    <li>                    
+                        <input class="text-box single-line form-control" data-val="true" data-val-length="В поле &quot;Должность владельца сертификата&quot; должно быть не более 64 символов" data-val-length-max="64" data-val-required="Необходимо ввести должность владельца сертификата" id="SertificateOwnerPosition" name="SertificateOwnerPosition" type="text" value="">
+                        <div class="blank_table_note">Например: Генеральный директор или Индивидуальный предприниматель. Будет указана в сертификате. Не более 64 символов</div>
+                        <span class="field-validation-valid" data-valmsg-for="SertificateOwnerPosition" data-valmsg-replace="true"></span>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="blank_table_left">
+                        СНИЛС владельца сертификата
+                    </li>
+                    <li>                    
+                        <input class="text-box single-line form-control" data-val="true" data-val-required="Необходимо ввести СНИЛС владельца сертификата" data-val-validateallnumbers="В поле СНИЛС владельца сертификата должны быть только цифры" id="SertificateOwnerSnils" name="SertificateOwnerSnils" type="text" value="">
+                        <div class="blank_table_note">Укажите СНИЛС без "-" и пробелов.Будет указано в сертификате</div>
+                        <span class="field-validation-valid" data-valmsg-for="SertificateOwnerSnils" data-valmsg-replace="true"></span>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="blank_table_left">
+                        Email владельца сертификата
+                    </li>
+                    <li>                    
+                        <input class="text-box single-line form-control" data-val="true" data-val-regex="Неверный формат электронной почты" data-val-regex-pattern="^[a-z0-9_\+-]+(\.[a-z0-9_\+-]+)*@[a-z0-9-]+(\.[a-z0-9]+)*\.([a-z]{2,4})$" data-val-required="Необходимо ввести Email владельца сертификата" id="SertificateOwnerEmail" name="SertificateOwnerEmail" type="text" value="">
+                        <div class="blank_table_note">Адрес электронной почты владельца сертификата. Будет указан в сертификате и использоваться для связи с Росалкогольрегулированием. Например: i.ivanov@ooo-alfa.ru</div>
+                        <span class="field-validation-valid" data-valmsg-for="SertificateOwnerEmail" data-valmsg-replace="true"></span>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="blank_table_left">
+                        Телефон владельца сертификата
+                    </li>
+                    <li>                    
+                        <input class="text-box single-line form-control" data-val="true" data-val-required="Необходимо ввести телефон владельца сертификата" id="SertificateOwnerPhone" name="SertificateOwnerPhone" type="text" value="">
+                        <div class="blank_table_note">Телефон в формате (000)000-00-00. Используется для связи с владельцем сертификата</div>
+                        <span class="field-validation-valid" data-valmsg-for="SertificateOwnerPhone" data-valmsg-replace="true"></span>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="blank_table_left">
+                        Город
+                    </li>
+                    <li>                   
+                        <input class="text-box single-line form-control" data-val="true" data-val-required="Необходимо ввести город" id="City" name="City" type="text" value="">
+                        <div class="blank_table_note">Название города или населенного пункта по месту регистрации юридического лица либо по прописке индивидуального предпринимателя (от 2 до 127 символов). Примеры заполнения: с. Знаменка; д. Медведково; пгт. Будогощь; г. Санкт-Петербург</div>
+                        <span class="field-validation-valid" data-valmsg-for="City" data-valmsg-replace="true"></span>
+                    </li>
+                </ul>
+
+                <ul>
+
+                    <li class="blank_table_left">
+                    </li>
+                    <li>
+                        <label style="margin-bottom:20px;">                        
+                            <input data-val="true" data-val-booleanrequired="Необходимо ознакомиться с положением &quot;Об обработке персональных данных&quot;" data-val-required="Требуется поле Я ознакомлен с положением &quot;Об обработке персональных данных&quot;." id="HaveReadThePosition" name="HaveReadThePosition" style="width:20px;" type="checkbox" value="true"><input name="HaveReadThePosition" type="hidden" value="false"> Я ознакомлен с положением "<a href="#" target="_blank">
+                                                                                                                                                Об обработке персональных персональных данных
+                                                                                                                                            </a>"
+                        </label>
+                        <span class="field-validation-valid" data-valmsg-for="HaveReadThePosition" data-valmsg-replace="true"></span>
+                        
+                        <input type="submit" class="btn btn-success" value="Оставить заявку">
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+</form></div>
+
+
+<script>
+    $(function() {
+        $("input[type=text]").addClass("form-control");
+    });    
+</script>
+            </div>
+            <br>
+            <br>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="foot_cont">
+            <div class="container">
+                <span class="contacts_foot"><span style="color:#7AD9FF;">+7 (499)</span> 653-61-43 <a href="mailto:info@centrikt.ru" style="margin-left:20px;">info@centrikt.ru</a></span>
+            </div>
+        </div>
+        
+        
+        
+
+
+<div class="container">
+    <div class="row">
+            <div class="col-md-4">
+                <div class="foot_block_links">
+                    <div class="foot_block_tit">РЕШЕНИЯ</div>
+                                    <a href="/Sections/Details/9">Комплексы измерительные автоматизированного учета алкогольной продукции &#160;&#171;ALCOSPOT&#187; АСИиУ </a>
+                                    <a href="/Sections/Details/25">Автоматизированная система сверки деклараций</a>
+                                    <a href="/Sections/Details/26">Декларант АлкоПлюс</a>
+                                    <a href="/Sections/Details/27">Электронный журнал учета розничного оборота алкогольной продукции </a>
+                                <a href="http://j-pos.ru">ПО для комплекса ЕГАИС-розница</a>
+                                    <a href="/Sections/Details/30">Система мониторинга сохранности перевозимых автотранспортом жидкостей</a>
+                                    <a href="/Sections/Details/40">ЕГАИС - Экспресс</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="foot_block_links">
+                    <div class="foot_block_tit">ОБОРУДОВАНИЕ</div>
+                                    <a href="/Products/Categories/1">Оборудование для перевозки спирта</a>
+                                    <a href="/Products/Categories/2">Проверка легальности ФСМ и АМ</a>
+                                    <a href="/Products/Categories/4">Оборудование для производителей этилового спирта и алкогольной продукции</a>
+                                    <a href="/Products/Categories/9">Готовые решения для ЕГАИС от компании Дримкас</a>
+                                    <a href="/Products/Categories/10">Оборудование для ЕГАИС от компании Атол</a>
+                                    <a href="/Products/Categories/7">Комплектующие для ЕГАИС</a>
+                </div>
+            </div>
+        
+        <div class="col-md-4">
+            <div class="foot_block">
+                <div class="foot_block_tit">КОНТАКТЫ</div>
+                Адрес для писем:115280, Москва, ул.Автозаводская, 17, корп. 3 офис 11
+                <br>
+                Адрес:109316, Москва, Остаповский проезд, д. 5, стр.1, подъезд 4, офис 391
+                <br>
+                Почта: <a href="mailto:info@centrikt.ru">info@centrikt.ru</a> <br>
+                Телефон:+7 (499) 653-61-43
+            </div>
+        </div>
+    </div>
+</div>
+
+       
+        <div class="copyr"><div class="container">© 2012 - 2016 ЦентрИКТ</div></div>
+    </div>
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+
+
+<div id="create-callback-window" class="modal fade">
+    <div id="dialogContent" class="modal-dialog modal-sm">
+        <div class="modal-header">
+            <button class="close" data-dismiss="modal" style="color: white;" area-hidden="true">X</button>
+        </div>
+
+        <div class="modal-content">                    
+            <div class="modal-body">
+
+                
+
+<form action="/Callback/Create/9?Length=8" data-ajax="true" data-ajax-begin="OnCallbackAddBegin" data-ajax-complete="OnCallbackAddComplete" data-ajax-failure="OnCallbackAddFailure" data-ajax-loading="#add-callback-loader" data-ajax-mode="replace" data-ajax-success="OnCallbackAddSuccess" data-ajax-update="#add-callback-form" id="add-callback-form" method="post">    <div class="alert alert-danger hidden" id="add-callback-error-message">
+        Не удалось создать заявку. Пожалуйста, попробуйте еще раз или обратитесь к нашим сотрудникам.
+        Вам обязательно помогут.
+    </div>
+    <div class="form-group">
+        <label for="Fio">Ваше имя</label>
+        <input class="form-control" data-val="true" data-val-required="Необходимо ввести ваше имя" id="Fio" name="Fio" type="text" value="" />
+        <p class="field-validation-valid" data-valmsg-for="Fio" data-valmsg-replace="true"></p>
+    </div>
+    <div class="form-group">
+        <label for="Email">Ваша электронная почта</label>
+        <input class="form-control" data-val="true" data-val-email="Неверный формат электронной почты" id="Email" name="Email" type="text" value="" />
+        <p class="field-validation-valid" data-valmsg-for="Email" data-valmsg-replace="true"></p>
+    </div>
+    <div class="form-group">
+        <label for="Phone">Ваш телефон для связи</label>
+        <input class="form-control" data-val="true" data-val-required="Необходимо ввести ваш телефон" id="Phone" name="Phone" type="text" value="" />
+        <p class="field-validation-valid" data-valmsg-for="Phone" data-valmsg-replace="true"></p>
+    </div>
+    <div class="text-center">
+        
+            
+            
+        
+        
+
+        <button type="submit" class="btn btn-primary" id="add-callback-button">
+            <img src='/Content/img/ajax-loader-blue.gif' id="add-callback-loader" class="hidden" />
+            Заказать звонок
+        </button>
+    </div>
+    <script>
+        
+        function OnCallbackAddBegin() {
+            $("#add-callback-error-message").addClass("hidden");
+
+            $("#add-callback-loader").removeClass("hidden");
+        }
+
+        function OnCallbackAddSuccess(result) {
+            $("#add-callback-loader").addClass("hidden");
+
+            $("#create-callback-window").modal("hide");
+
+            console.log("Заявка создана");
+
+            $("#create-callback-success-window").modal("show");
+
+            $("#create-callback-success-window .modal-body").html(result);
+        }
+        
+        function OnCallbackAddFailure(jqXhr, textStatus, errorThrown) {
+            
+
+            console.log("Ajax error: " + jqXhr.status + ": " + errorThrown);
+
+            $("#add-callback-error-message").removeClass("hidden");
+
+            //$('#add-callback-error-message').text(" ");
+            //$('#add-callback-error-message').show();
+        }
+
+        function OnCallbackAddComplete() {
+            $("#add-callback-loader").addClass("hidden");
+        }
+        //function OnCallbackAddFailure(jqXhr, textStatus, errorThrown) {
+        //    console.log("Ajax error: " + jqXhr.status + ": " + errorThrown);
+        //    $('#add-callback-error-message').text(jqXhr.status + ": " + errorThrown);
+        //    $('#add-callback-error').show();
+        //}
+    </script>
+</form>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    
+    <div id="create-callback-success-window" class="modal fade">
+    <div id="dialogContent" class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" data-dismiss="modal" area-hidden="true">X</button>             
+                <h2> Заявка создана успешно </h2>
+            </div>
+            <div class="modal-body">
+
+                
+
+
+
+            </div>
+
+            <div class="modal-footer">
+
+                
+                <a class="btn btn-primary close-button">Закрыть</a>
+                
+            </div>
+        </div>
+    </div>
+</div>
+    
+    
+   
+
+    <script src="/Scripts/user-basket.js"></script>
+    <link rel="stylesheet" href="/Content/basket-panel.css"/>
+    
+    <script src="/Scripts/callbacks.js"></script>
+    
+    
+    
+    <script src="/Scripts/jquery.validate.js" type="text/javascript"></script>
+    <script src="/Scripts/jquery.validate.unobtrusive.js" type="text/javascript"></script>
+    <script src="/Scripts/jquery.unobtrusive-ajax.js"></script>
+
+    
+    <script src="/Scripts/inputs.js"></script>
+    
+    
+</body>
+</html>
