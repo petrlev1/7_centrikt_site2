@@ -110,22 +110,28 @@
             <div class="blank_radiobut_top">Выберите продукт:</div>
         </div>
         <div class="col-md-6">
-            <input type="radio" name="ProductName" id="ProductName" class="blank_chek" value="КЭП (для сдачи декларации в Росалкогольрегулирование)">
+            <input type="checkbox" name="ProductName" id="ProductName" class="blank_chek" value="КЭП (для сдачи декларации в Росалкогольрегулирование)">
             <label for="ProductName" class="blank_radiobut"><span>КЭП (для сдачи декларации в Росалкогольрегулирование)</span></label>
-        </div>
-        <div class="col-md-6">
-
-
-            <input type="radio" id="ProductName1" name="ProductName" value="КЭП + JaCarta (для ЕГАИС)" class="blank_chek">
-            <label for="ProductName1" class="blank_radiobut"><span>КЭП + JaCarta (для ЕГАИС)</span></label>
-
-        </div>
-<span class="field-validation-valid" data-valmsg-for="ProductName" data-valmsg-replace="true"></span>        <div class="col-md-12">
             <div class="blank_num">
                 В количестве: 
                 <input class="text-box single-line" data-val="true" data-val-number="Значением поля Количество продукта должно быть число." data-val-required="Необходимо выбрать количество продукта" id="Amount" name="Amount" type="number" value="">  
                 <span class="field-validation-valid" data-valmsg-for="Amount" data-valmsg-replace="true"></span>
             </div>
+        </div>
+        <div class="col-md-6">
+
+
+            <input type="checkbox" id="ProductName1" name="ProductName" value="КЭП + JaCarta (для ЕГАИС)" class="blank_chek">
+            <label for="ProductName1" class="blank_radiobut"><span>КЭП + JaCarta (для ЕГАИС)</span></label>
+            <div class="blank_num">
+                В количестве: 
+                <input class="text-box single-line" data-val="true" data-val-number="Значением поля Количество продукта должно быть число." data-val-required="Необходимо выбрать количество продукта" id="Amount" name="Amount" type="number" value="">  
+                <span class="field-validation-valid" data-valmsg-for="Amount" data-valmsg-replace="true"></span>
+            </div>
+
+        </div>
+<span class="field-validation-valid" data-valmsg-for="ProductName" data-valmsg-replace="true"></span>        <div class="col-md-12">
+            
             <div class="space_line"></div>
             <h3>Данные об организации</h3>
             <div class="blank_table">
