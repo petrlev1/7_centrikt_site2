@@ -1,4 +1,4 @@
-body {
+﻿body {
   margin: 0 0;
   padding: 0 0;
   font-family: Verdana, Geneva, sans-serif;
@@ -18,8 +18,7 @@ a {
 .head {
   border-bottom: 1px #c0ddf0 solid;
   height: 120px;
-  background: #fff url(img/ny2017_snow.jpg) repeat-x;
-  background-position: bottom; }
+  background-color: #fff; }
 
 .head_line {
   position: absolute;
@@ -626,6 +625,12 @@ p {
   padding-bottom: 60px;
   padding-top: 20px; }
 
+.about_alcospot {
+  background: url("https://centrikt.ru/Content/images//about_alcospot.png") top left no-repeat;
+  background-size: contain;
+  padding: 1px 0 35px 0;
+  margin: 20px 0; }
+
 /* page /about */
 /* page index */
 .ind_block_section, .ind_block_uslugi {
@@ -669,7 +674,7 @@ p {
 .ind_pic_text {
   position: absolute;
   right: 9%;
-  top: 60px;
+  top: 28px;
   color: #0478C3;
   font-size: 36px; }
 
@@ -1106,6 +1111,9 @@ p {
     padding-bottom: 0;
     padding-top: 0; }
 
+  .about_alcospot {
+    background: none; }
+
   .ind_pic_text {
     position: absolute;
     right: 0;
@@ -1256,4 +1264,27 @@ p {
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.33);
   -webkit-font-smoothing: antialiased; }
 
+
 /*# sourceMappingURL=style.css.map */
+
+
+/*Помарочный учет*/
+.alcospotSR_p1 { position: relative; height: 570px; background: url(img/bottleAccount/alcospotSR_p1.png) center bottom 15px no-repeat; }
+
+.alcospotSR_tit1 { display: inline-block; font-size: 36px; font-weight: bold; color: #ffffff; padding: 15px 25px 20px 25px; background-color: #0779BC; }
+.alcospotSR_tit2 { position: absolute; top: 360px; font-size: 41px; color: #0779BC; line-height: normal }
+
+.alcospotSR_li { }
+.alcospotSR_li li { position: relative; font-size: 17px; padding: 0 0 0 15px; margin: 40px 0 }
+.alcospotSR_li li span { position: absolute; left: -40px; width: 36px; height: 36px; background-color: #0779BC; color: #ffffff; text-align: center; border-radius: 50%; padding: 4px 0 0 0; margin: -6px 0 0 0 }
+
+
+@media (max-width: 768px) {
+
+    .alcospotSR_p1 {}
+.alcospotSR_tit2 {}
+.alcospotSR_tit2 div { font-size: 22px !important; margin: 0 0 0 0 !important; }
+.alcospotSR_vid { display: none }
+    
+}
+/*Помарочный учет*/
